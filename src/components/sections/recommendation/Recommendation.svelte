@@ -16,7 +16,7 @@
 	</div>
 
 	<section class="px-6 lg:px-0 lg:max-w-[60%] ml-auto grid gap-10">
-		<div class="grid gap-14">
+		<div class="grid gap-10">
 			<h2 class="h3 text-black-100">Products that <br /> We Highly Recommend</h2>
 			<div class="w-fit relative">
 				<div class="rounded-lg overflow-hidden max-w-[19.5rem] h-[21.625rem]">
@@ -24,7 +24,7 @@
 				</div>
 				<a
 					href="/"
-					class="absolute right-0 top-0 translate-x-1/2 -translate-y-1/2 border-4 border-white bg-teal-100 inline-flex items-center justify-center w-16 h-16 rounded-full text-white"
+					class="absolute right-0 top-0 translate-x-1/5 lg:translate-x-1/2 -translate-y-1/2 border-4 border-white bg-teal-100 inline-flex items-center justify-center w-16 h-16 rounded-full text-white"
 					>{@render arrow_top_angle('w-4 h-4')}</a
 				>
 			</div>

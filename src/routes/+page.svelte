@@ -1,5 +1,6 @@
 <script lang="ts">
 	import About from '@component/sections/about/About.svelte';
+	import Banner from '@component/sections/banner/Banner.svelte';
 	import Feature from '@component/sections/feature/Feature.svelte';
 	import Header from '@component/sections/header/Header.svelte';
 	import Recommendation from '@component/sections/recommendation/Recommendation.svelte';
@@ -10,6 +11,7 @@
 	<About />
 	<Feature />
 	<Recommendation />
+	<Banner />
 </main>
 
 <svelte:head>

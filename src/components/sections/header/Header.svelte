@@ -15,7 +15,7 @@
 	<section
 		class="absolute bottom-12 right-1/2 translate-x-1/2 w-4/5 text-center lg:text-left lg:translate-x-0 lg:max-w-lg lg:right-20"
 	>
-		<div class="mb-6">{@render arrow_top_angle('w-8 h-8')}</div>
+		<div class="mb-6 hidden lg:block">{@render arrow_top_angle('w-8 h-8')}</div>
 		<p class="paragraph">
 			Our minimalist furniture features clean lines and functionality, enhancing any space with
 			timeless, clutter-free pieces that create a calm, sophisticated atmosphere.

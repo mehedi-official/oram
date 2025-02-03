@@ -19,7 +19,7 @@
 			<enhanced:img src={about_banner} alt="" class="rounded-2xl"> </enhanced:img>
 		</div>
 
-		<div class="grid gap-5 lg:max-w-[80%]">
+		<div class="grid gap-5 justify-items-start lg:max-w-[80%]">
 			<p class="paragraph-lg text-black-300">
 				Choosing ORAM means investing in quality craftsmanship that lasts for generations. Our
 				nature-inspired designs bring comfort, style, and purpose to your space, while our
@@ -28,7 +28,7 @@
 			</p>
 			<a
 				href="/"
-				class="inline-flex items-center gap-2 paragraph transition-all hover:underline underline-offset-4 text-black-100"
+				class="inline-flex items-center gap-2 paragraph transition-all underline lg:no-underline hover:underline underline-offset-4 text-black-100"
 				>Read more about us <span>{@render arrow_top_angle('w-3 h-3', '#121212')}</span></a
 			>
 		</div>

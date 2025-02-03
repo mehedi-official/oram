@@ -8,28 +8,66 @@
 		<div class="py-10 px-6 lg:py-14 lg:pl-16 border-[#265D5F]">
 			<h5 class="paragraph mb-5">Company</h5>
 			<ul class="paragraph-sm grid gap-4 text-white/80 font-light">
-				<li><a href="/">Blogs</a></li>
-				<li><a href="/">Linkedin</a></li>
-				<li><a href="/">Testimonials</a></li>
+				<li>
+					<a href="/" class="transition hover:underline hover:text-white underline-offset-4"
+						>Blogs</a
+					>
+				</li>
+				<li>
+					<a href="/" class="transition hover:underline hover:text-white underline-offset-4"
+						>Linkedin</a
+					>
+				</li>
+				<li>
+					<a href="/" class="transition hover:underline hover:text-white underline-offset-4"
+						>Testimonials</a
+					>
+				</li>
 			</ul>
 		</div>
 
 		<div class="py-10 px-6 lg:py-14 lg:pl-16 lg:border-l border-[#265D5F]">
 			<h5 class="paragraph mb-5">Products</h5>
 			<ul class="paragraph-sm grid gap-4 text-white/80 font-light">
-				<li><a href="/">Home</a></li>
-				<li><a href="/">Category</a></li>
-				<li><a href="/">Cart</a></li>
-				<li><a href="/">Contact us</a></li>
+				<li>
+					<a href="/" class="transition hover:underline hover:text-white underline-offset-4">Home</a
+					>
+				</li>
+				<li>
+					<a href="/" class="transition hover:underline hover:text-white underline-offset-4"
+						>Category</a
+					>
+				</li>
+				<li>
+					<a href="/" class="transition hover:underline hover:text-white underline-offset-4">Cart</a
+					>
+				</li>
+				<li>
+					<a href="/" class="transition hover:underline hover:text-white underline-offset-4"
+						>Contact us</a
+					>
+				</li>
 			</ul>
 		</div>
 
 		<div class="py-10 px-6 lg:py-14 lg:pl-16 lg:border-l border-[#265D5F]">
 			<h5 class="paragraph mb-5">Managed Service</h5>
 			<ul class="paragraph-sm grid gap-4 text-white/80 font-light">
-				<li><a href="/">Privacy policy</a></li>
-				<li><a href="/">What's included</a></li>
-				<li><a href="/">Learn more</a></li>
+				<li>
+					<a href="/" class="transition hover:underline hover:text-white underline-offset-4"
+						>Privacy policy</a
+					>
+				</li>
+				<li>
+					<a href="/" class="transition hover:underline hover:text-white underline-offset-4"
+						>What's included</a
+					>
+				</li>
+				<li>
+					<a href="/" class="transition hover:underline hover:text-white underline-offset-4"
+						>Learn more</a
+					>
+				</li>
 			</ul>
 		</div>
 

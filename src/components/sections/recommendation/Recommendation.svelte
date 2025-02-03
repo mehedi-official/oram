@@ -24,7 +24,7 @@
 				</div>
 				<a
 					href="/"
-					class="absolute right-0 top-0 translate-x-1/5 lg:translate-x-1/2 -translate-y-1/2 border-4 border-white bg-teal-100 inline-flex items-center justify-center w-16 h-16 rounded-full text-white"
+					class="absolute right-0 top-0 translate-x-1/5 hover:bg-[#1d3638] lg:translate-x-1/2 -translate-y-1/2 border-4 border-white bg-teal-100 inline-flex items-center justify-center w-16 h-16 rounded-full text-white"
 					>{@render arrow_top_angle('w-4 h-4')}</a
 				>
 			</div>
@@ -46,7 +46,7 @@
 
 			<a
 				href="/"
-				class="inline-flex items-center gap-2 transition-all hover:underline underline-offset-4 paragraph text-black-100"
+				class="inline-flex items-center gap-2 transition-all underline lg:no-underline hover:underline underline-offset-4 paragraph text-black-100"
 				>Read more about us <span>{@render arrow_top_angle('w-3 h-3', '#121212')}</span></a
 			>
 		</div>

@@ -17,7 +17,7 @@
 			</div>
 			<a
 				href="/"
-				class="inline-flex gap-2 items-center paragraph text-teal-300 transition-all hover:underline underline-offset-4"
+				class="inline-flex gap-2 items-center paragraph text-teal-300 transition-all underline lg:no-underline hover:underline underline-offset-4"
 				>Read more about us <span>{@render arrow_top_angle('w-3 h-3')}</span></a
 			>
 		</div>
@@ -41,7 +41,7 @@
 			</div>
 			<a
 				href="/"
-				class="inline-flex gap-2 items-center paragraph text-teal-300 transition-all hover:underline underline-offset-4"
+				class="inline-flex gap-2 items-center paragraph text-teal-300 transition-all underline lg:no-underline hover:underline underline-offset-4"
 				>Read more about us <span>{@render arrow_top_angle('w-3 h-3')}</span></a
 			>
 		</div>

@@ -44,7 +44,11 @@
 				</p>
 			</div>
 
-			<a href="/" class="paragraph text-black-100">Read more about us</a>
+			<a
+				href="/"
+				class="inline-flex items-center gap-2 transition-all hover:underline underline-offset-4 paragraph text-black-100"
+				>Read more about us <span>{@render arrow_top_angle('w-3 h-3', '#121212')}</span></a
+			>
 		</div>
 	</section>
 </section>

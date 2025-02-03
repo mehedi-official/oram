@@ -1,8 +1,9 @@
 <script lang="ts">
+	import { arrow_top_angle } from '@component/logos/Icons.svelte';
 	import Navbar from './Navbar.svelte';
 </script>
 
-<header class="text-white h-dvh bg-black relative">
+<header class="text-white h-svh bg-black relative">
 	<Navbar />
 	<section class="grid gap-1 mt-36">
 		<h1 class="text-6xl text-center lg:text-[8rem] leading-base font-medium">Embrace Minimalism</h1>
@@ -14,7 +15,7 @@
 	<section
 		class="absolute bottom-12 right-1/2 translate-x-1/2 w-4/5 text-center lg:text-left lg:translate-x-0 lg:max-w-lg lg:right-20"
 	>
-		<div></div>
+		<div class="mb-6">{@render arrow_top_angle('w-8 h-8')}</div>
 		<p class="paragraph">
 			Our minimalist furniture features clean lines and functionality, enhancing any space with
 			timeless, clutter-free pieces that create a calm, sophisticated atmosphere.

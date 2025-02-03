@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { mail, map, phone } from '@component/logos/Icons.svelte';
 	import { logo } from '@component/logos/Logos.svelte';
 </script>
 
@@ -35,9 +36,21 @@
 		<div class="py-10 px-6 lg:py-14 lg:pl-16 lg:border-l border-[#265D5F]">
 			<h5 class="paragraph mb-5">Get in touch</h5>
 			<ul class="paragraph-sm grid gap-4 text-white/80 font-light">
-				<li><a href="/">+880 1926457518</a></li>
-				<li><a href="/">+880 1926457518</a></li>
-				<li><a href="/">info@oram-furniture.com</a></li>
+				<li>
+					<a href="/" class="inline-flex gap-3 items-center"
+						><span>{@render phone()}</span> +880 1926457518</a
+					>
+				</li>
+				<li>
+					<a href="/" class="inline-flex gap-3 items-center"
+						><span>{@render map()}</span> Mirpur 11, Dhaka, Bangladesh</a
+					>
+				</li>
+				<li>
+					<a href="/" class="inline-flex gap-3 items-center"
+						><span>{@render mail()}</span> info@oram-furniture.com</a
+					>
+				</li>
 			</ul>
 		</div>
 	</section>

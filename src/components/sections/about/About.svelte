@@ -1,5 +1,6 @@
 <script>
 	import about_banner from '$lib/assets/about_us_banner.png?enhanced';
+	import { arrow_top_angle } from '@component/logos/Icons.svelte';
 </script>
 
 <section class="pt-[4.5rem] pb-12 px-6 lg:px-20">
@@ -25,8 +26,10 @@
 				commitment to sustainability reduces environmental impact. With ORAM, you’re not just
 				furnishing your home—you’re making a conscious choice for a better future.
 			</p>
-			<a href="/" class="paragraph underline underline-offset-4 text-black-100"
-				>Read more about us</a
+			<a
+				href="/"
+				class="inline-flex items-center gap-2 paragraph transition-all hover:underline underline-offset-4 text-black-100"
+				>Read more about us <span>{@render arrow_top_angle('w-3 h-3', '#121212')}</span></a
 			>
 		</div>
 	</section>

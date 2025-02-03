@@ -1,6 +1,7 @@
 <script lang="ts">
 	import feature_1 from '$lib/assets/feature_1.png?enhanced';
 	import feature_2 from '$lib/assets/feature_2.png?enhanced';
+	import { arrow_top_angle } from '@component/logos/Icons.svelte';
 </script>
 
 <section class="text-white">
@@ -14,7 +15,11 @@
 					impact while delivering sophisticated, high-quality furniture.
 				</p>
 			</div>
-			<a href="/" class="paragraph text-teal-300">Read more about us</a>
+			<a
+				href="/"
+				class="inline-flex gap-2 items-center paragraph text-teal-300 transition-all hover:underline underline-offset-4"
+				>Read more about us <span>{@render arrow_top_angle('w-3 h-3')}</span></a
+			>
 		</div>
 		<div>
 			<enhanced:img src={feature_1} class="w-full h-full object-cover" alt="Feature 1" />
@@ -34,7 +39,11 @@
 					not only enhances your space but also supports a healthier planet.
 				</p>
 			</div>
-			<a href="/" class="paragraph text-teal-300">Read more about us</a>
+			<a
+				href="/"
+				class="inline-flex gap-2 items-center paragraph text-teal-300 transition-all hover:underline underline-offset-4"
+				>Read more about us <span>{@render arrow_top_angle('w-3 h-3')}</span></a
+			>
 		</div>
 	</section>
 </section>

@@ -6,7 +6,7 @@
 <header class="text-white h-svh bg-black relative">
 	<Navbar />
 	<section class="grid gap-1 mt-36">
-		<h1 class="text-6xl text-center lg:text-[8rem] leading-base font-medium">Embrace Minimalism</h1>
+		<h1 class="text-6xl text-center lg:text-[8rem] 2xl:text-[12rem] leading-base font-medium">Embrace Minimalism</h1>
 		<p class="h5 text-center w-4/5 mx-auto lg:mx-0 lg:w-full lg:text-right lg:pr-24">
 			Design Your Home Simply and Purposefully
 		</p>

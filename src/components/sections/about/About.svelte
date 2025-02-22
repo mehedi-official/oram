@@ -16,7 +16,7 @@
 
 	<section class="grid gap-7">
 		<div>
-			<enhanced:img src={about_banner} alt="" class="rounded-2xl"> </enhanced:img>
+			<enhanced:img src={about_banner} alt="About" class="rounded-2xl 2xl:w-full 2xl:object-cover"> </enhanced:img>
 		</div>
 
 		<div class="grid gap-5 justify-items-start lg:max-w-[80%]">

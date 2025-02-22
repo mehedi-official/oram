@@ -109,4 +109,10 @@
 			grid-template-columns: 4fr 4fr 4fr 5.25fr;
 		}
 	}
+
+	@media (min-width: 96rem) {
+		.links {
+			grid-template-columns: repeat(4, 1fr);
+		}
+	}
 </style>

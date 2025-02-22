@@ -30,9 +30,9 @@
 	</div>
 
 	<section class="flex justify-between">
-		<div class=" -translate-x-1/2">
+		<a href="/" class=" -translate-x-1/2">
 			{@render logo()}
-		</div>
+		</a>
 		<div>
 			<a
 				href="/"
